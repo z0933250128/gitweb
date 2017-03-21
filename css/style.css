@@ -1,0 +1,159 @@
+* {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+}
+
+html {
+ 	background-color: #EDF2C5;
+}
+
+/*header*/
+header{
+	padding-top: 53px;
+	margin-bottom: 8px;
+}
+.container {
+ 	max-width: 940px;
+ 	margin: auto;
+}
+.main-area{
+	float: left;
+}
+.main-area h1{
+	font-family: "Arial Black", sans-serif;
+    font-size: 44px;
+    color: #778A50;
+    display: inline-block;
+    line-height: 30px;
+    width: 271px;
+    height: 42px;
+}
+.sidebar{
+	float: right;
+}
+.sidebar .icon{
+	float:left;
+	border-radius: 0px;
+	margin-right: 10px;
+	width: 25px;
+    height: 25px;
+}
+.sidebar .border{
+	float:left;
+	display: inline-block;
+    border-left: 1px solid #778A50;
+    height: 25px;
+    margin-right: 10px;
+}
+.sidebar .button-login{
+	float:left;
+	vertical-align: top;
+	display: inline-block;
+	height: 25px;
+	width: 60px;
+	font: bold 14px "Arial";
+	color: #778A50;
+	border: 1px solid #778A50;
+	border-radius: 3px;
+	background-color: #EDF2C5;
+	margin-right: 10px;
+}
+.sidebar .button-join{
+	float:left;
+	vertical-align: top;
+	display: inline-block;
+	height: 25px;
+	width: 50px;
+	font: bold 14px "Arial";
+	color: #778A50;
+	border: 1px solid #778A50;
+	border-radius: 3px;
+	background-color: #EDF2C5;
+}
+.clear{
+ 	clear:both;
+}
+/*nav*/
+.site-nav{
+	margin-bottom: 20px;
+	background-color: #778A50;
+	height: 44px;
+}
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+}
+.site-nav li{
+	list-style: none;
+	float: left;
+}
+.site-nav a{
+	font-family: "Arial Black", sans-serif;
+	font-size: 16px;
+	color: #EDF2C5;
+	text-decoration: none;
+	display: block;
+	padding: 16px 30px;
+	line-height: 12px;
+}
+/*article*/
+.main-img{
+	margin-bottom: 30px;
+}
+.left-area{
+	float: left;
+	width: 445px;
+}
+.left-area .thirdimg{
+	margin-right:-12px;
+	display:inline-block;
+}
+.left-area .thirdimg img{
+	float:left;
+	margin-right:12px;
+}
+.right-area{
+	float: right;
+	width: 445px;
+}
+.right-area .contacttext{
+	height:140px;
+	font-family: ArialMT regular, arial;
+    padding: 16px 15px;
+    font-size: 12px;
+    color: #7D7D7D;
+	line-height:1.83;
+    background-color: #F7FBDA;
+}
+.right-area .contacttext .main-text{
+	line-height:1.33;
+	margin-bottom:16px;
+}
+.borderhorizontal{
+	border:1px solid #7D7D7D;
+	margin-bottom:16px;
+}
+.title{
+	background-color: #778A50;
+	height: 45px;
+	margin-bottom: 15px;
+}
+.title h3{
+	font-family: "Arial Black", sans-serif;
+	font-size: 16px;
+	color: #EDF2C5;
+	line-height: 15px;
+	padding: 15px 30px;
+}
+/*footer*/
+footer{
+	height:60px;
+	background-color:#778A50;
+	font-family: ArialMT regular, arial;
+	font-size:12px;
+	color:#EDF2C5;
+	margin-top:35px;
+	padding:24px 479px 25px 479px;
+	text-align: center;
+}
